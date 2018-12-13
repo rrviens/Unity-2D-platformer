@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/3rdLevel.unity
+- path: Assets/_Scenes/highscores.unity
   isLoaded: 1
   isActive: 1
