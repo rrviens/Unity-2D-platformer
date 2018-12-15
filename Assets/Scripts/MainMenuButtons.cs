@@ -21,6 +21,10 @@ public class MainMenuButtons : MonoBehaviour {
 		SaveSliderValue();
 	}
 
+	public void HighScore(){
+		Application.LoadLevel(6);
+	}
+
 	public void ExitMain(){
 		Application.Quit();
 	}
