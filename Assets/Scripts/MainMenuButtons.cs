@@ -21,6 +21,10 @@ public class MainMenuButtons : MonoBehaviour {
 		SaveSliderValue();
 	}
 
+	public void StartMenu(){
+		Application.LoadLevel(0);
+	}
+
 	public void HighScore(){
 		Application.LoadLevel(6);
 	}
@@ -34,7 +38,7 @@ public class MainMenuButtons : MonoBehaviour {
 	}
 
 	public void Back(){
-		Application.LoadLevel(4);
+		Application.LoadLevel((Application.loadedLevel-1));
 	}
 	public void leveltwo(){
 		Application.LoadLevel(2);

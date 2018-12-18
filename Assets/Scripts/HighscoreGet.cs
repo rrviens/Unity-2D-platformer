@@ -9,18 +9,18 @@ public class HighscoreGet : MonoBehaviour {
 public InputField InputField;
 
 void Start(){
-	InputField.onValueChange.AddListener(delegate {ValueChangeCheck(); });
+	//InputField.onValueChange.AddListener(delegate {ValueChangeCheck(); });
 	}
 
  
  void Update() {
      if(InputField.isFocused && InputField.text != "" && Input.GetKey(KeyCode.Return)) {
-//kažkoks kodas
+     name = GUILayout.TextField(InputField.text);
      }
 }
 
-    public void ValueChangeCheck()
-    // {
-    //     Debug.Log("Value Changed");
-    // }
+  public void ValueChangeCheck()
+     {
+        Debug.Log("Value Changed");
+     }
 }
