@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CC9BB059-C75D-7923-5AD9-81348C1FC29B}") = "game-PSI", "Assembly-CSharp.csproj", "{F67570CB-C1CF-1804-6316-C32B001AF7CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F67570CB-C1CF-1804-6316-C32B001AF7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67570CB-C1CF-1804-6316-C32B001AF7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67570CB-C1CF-1804-6316-C32B001AF7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67570CB-C1CF-1804-6316-C32B001AF7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
